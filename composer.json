@@ -1,5 +1,5 @@
 {
-  "name": "arrilot/laravel-data-anonymization",
+  "name": "highspeedoffice/laravel-data-anonymization",
   "license": "MIT",
   "description": "Laravel bridge for arrilot/data-anonymization",
   "keywords": [
@@ -13,7 +13,7 @@
       "email": "nekrasov.ilya90@gmail.com"
     }
   ],
-  "homepage": "https://github.com/arrilot/laravel-data-anonymization",
+  "homepage": "https://github.com/highspeedoffice/laravel-data-anonymization",
   "require": {
     "php": ">=5.5.9",
     "arrilot/data-anonymization": "~1.0",
