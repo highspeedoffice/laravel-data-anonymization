@@ -114,7 +114,7 @@ class DbAnonymizeCommand extends Command
         $host = $connection['host'] ?? $connection['write']['host'][0] ?? '127.0.0.1';
 
         return [
-            'dsn' => "{$connection['driver']}:dbname={$connection['database']};host={$host};port={$connection['port']};charset={$connection['charset']}",
+            'dsn' => "{$connection['driver']}:dbname={$connection['database']};host={$host};port={$connection['port']}",
             'username' => $connection['username'],
             'password' => $connection['password'],
         ];
